@@ -2,7 +2,7 @@
 @objects
     galen-logo-image  xpath   //div[@class='navbar-header']//a//img
 
-= Designed Image =
+= Logo Image =
     galen-logo-image:
         visible
         width 20 to 30px
