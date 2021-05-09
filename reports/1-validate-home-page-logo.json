@@ -1,0 +1,100 @@
+{
+  "testId" : "1-validate-home-page-logo",
+  "name" : "Validate Home Page Logo",
+  "report" : {
+    "nodes" : [ {
+      "name" : "Check layout: homePage.gspec included tags: ",
+      "status" : "info",
+      "time" : 1620593017240,
+      "sections" : [ {
+        "name" : "Designed Image",
+        "place" : {
+          "filePath" : "homePage.gspec",
+          "lineNumber" : 5
+        },
+        "objects" : [ {
+          "name" : "galen-logo-image",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "homePage.gspec",
+              "lineNumber" : 7
+            },
+            "name" : "visible",
+            "highlight" : [ "galen-logo-image" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "homePage.gspec",
+              "lineNumber" : 8
+            },
+            "name" : "width 20 to 30px",
+            "meta" : [ {
+              "from" : {
+                "object" : "galen-logo-image",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "galen-logo-image",
+                "edge" : "right"
+              },
+              "expectedDistance" : "20 to 30px",
+              "realDistance" : "26px"
+            } ],
+            "highlight" : [ "galen-logo-image" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "homePage.gspec",
+              "lineNumber" : 9
+            },
+            "name" : "height 20 to 30px",
+            "meta" : [ {
+              "from" : {
+                "object" : "galen-logo-image",
+                "edge" : "top"
+              },
+              "to" : {
+                "object" : "galen-logo-image",
+                "edge" : "bottom"
+              },
+              "expectedDistance" : "20 to 30px",
+              "realDistance" : "26px"
+            } ],
+            "highlight" : [ "galen-logo-image" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "homePage.gspec",
+              "lineNumber" : 10
+            },
+            "name" : "inside screen 5 to 15px left",
+            "meta" : [ {
+              "from" : {
+                "object" : "galen-logo-image",
+                "edge" : "left"
+              },
+              "to" : {
+                "object" : "screen",
+                "edge" : "left"
+              },
+              "expectedDistance" : "5 to 15px",
+              "realDistance" : "8px"
+            } ],
+            "highlight" : [ "galen-logo-image", "screen" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "screen" : {
+          "area" : [ 0, 0, 991, 8079 ]
+        },
+        "galen-logo-image" : {
+          "area" : [ 8, 12, 26, 26 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

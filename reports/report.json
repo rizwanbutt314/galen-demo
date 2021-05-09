@@ -1,0 +1,18 @@
+{
+  "tests" : [ {
+    "name" : "Validate Home Page Logo",
+    "startedAt" : 1620593011646,
+    "endedAt" : 1620593017241,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 4,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 4
+    },
+    "testId" : "1-validate-home-page-logo",
+    "groups" : [ ],
+    "duration" : 5595,
+    "failed" : false
+  } ]
+}
